@@ -25,7 +25,7 @@ It performs three kinds of scan:
 The user provides an IP address and a value for the attribute ports and the script will check all ports between 1 and the provided value (1000 in the example).
 
 ```bash
-./shmap.sh --ip 1.2.3.4 --ports 1000 # 1<= port <= 1000
+./shmap.sh --ip 192.168.0.5 --ports 1000 # 1<= port <= 1000
 ```
 
 Follows a screenshot showing how the IP execution mode works.
@@ -36,7 +36,7 @@ Follows a screenshot showing how the IP execution mode works.
 The user provides an IP address for the subnet replacing the last group with a 'x' and a value for the attribute ports and the script will check all ports between 1 and the provided value (1000 in the example) for every IP address in the range [1:254].
 
 ```bash
-./shmap.sh --subnet 1.2.3.x --ports 1000 # 1<= port <= 1000 for x in range 1..254
+./shmap.sh --subnet 192.168.0.x --ports 1000 # 1<= port <= 1000 for x in range 1..254
 ```
 
 The following screenshot shows how the subnet execution mode works.
