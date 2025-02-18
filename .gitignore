@@ -1,1 +1,4 @@
 ./shmap/*
+./shmap/results/*
+./shmap/results/tcp/*
+./shmap/results/udp/*
